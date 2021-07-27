@@ -34,6 +34,8 @@
                 font-size: 120px;
                 color: #212529;
                 padding: 1rem 0rem;
+                margin-bottom: 1rem;
+                
             }
     
             p{
@@ -42,6 +44,7 @@
                 font-weight: 400;
                 color: #212529;
                 padding: 0rem 0rem 3rem 0rem ;
+                line-height: 70px;
             }
     
             .boton button:first-child{
@@ -117,7 +120,7 @@
     .iphone-seccion{
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-evenly;
         padding: $menu-padding;
         
     
