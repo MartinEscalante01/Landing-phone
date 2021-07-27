@@ -10,6 +10,12 @@
         flex-direction: column;
         justify-content: center;
         padding: $menu-padding;
+        background-image: url('../img/fondo.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: soft-light;
+        background-color: rgba(200, 200, 200);
         
         
     
@@ -52,8 +58,9 @@
                 border: 2px solid #11aff1;
                 color: #11aff1;
                 border-radius: 30px;
-                font-size: 50px;
+                font-size: 60px;
                 padding: 12px 40px;
+                margin-right: 5px;
             }
     
             .boton button:last-child{
@@ -61,9 +68,9 @@
                 border: 2px solid #3fb125;
                 color: #3fb125;
                 border-radius: 30px;
-                font-size: 50px;
+                font-size: 60px;
                 padding: 12px 40px;
-                
+                margin-left: 5px;
             }
         }
     
