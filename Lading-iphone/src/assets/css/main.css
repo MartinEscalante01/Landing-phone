@@ -117,7 +117,7 @@ video {
         background: 0 0;
         border: 2px solid #11aff1;
         border-radius: 30px;
-        font-size: 20px;
+        font-size: 50px;
         padding: 12px 40px; }
         .container div:first-child button a {
           color: #11aff1; }
@@ -126,7 +126,62 @@ video {
       .container div:first-child button:hover {
         background-color: #11aff1; }
     .container .img {
-      width: 70%; } }
+      width: 70%; }
+  .icons-seccion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3rem; }
+    .icons-seccion div:first-child {
+      display: flex;
+      flex-direction: column;
+      width: 100%; }
+      .icons-seccion div:first-child h1 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+        font-size: 80px;
+        color: #212529;
+        padding: 1rem 0rem;
+        margin-bottom: 2rem; }
+      .icons-seccion div:first-child p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 50px;
+        font-weight: 400;
+        color: #212529;
+        text-align: center; }
+    .icons-seccion div:last-child {
+      display: flex;
+      justify-content: center;
+      padding: 2rem; }
+      .icons-seccion div:last-child ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        flex-wrap: wrap; }
+        .icons-seccion div:last-child ul li {
+          padding: 2rem;
+          margin-bottom: 0;
+          flex: 0 0 350px; }
+          .icons-seccion div:last-child ul li i {
+            font-size: 400px;
+            color: #48D3B0;
+            margin-bottom: 20px; }
+          .icons-seccion div:last-child ul li h3 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 40px;
+            line-height: 22px;
+            color: #212529; }
+          .icons-seccion div:last-child ul li p {
+            font-family: 'Roboto', sans-serif;
+            font-size: 40px;
+            font-weight: 400;
+            color: #212529;
+            text-align: center;
+            margin-top: 1rem; } }
 
 @media (min-width: 1200px) {
   .iphone-seccion {
@@ -260,6 +315,10 @@ video {
         .icons-seccion div:last-child ul li {
           padding: 2rem;
           margin-bottom: 0; }
+          .icons-seccion div:last-child ul li i {
+            font-size: 80px;
+            color: #48D3B0;
+            margin-bottom: 20px; }
           .icons-seccion div:last-child ul li h3 {
             font-family: 'Roboto', sans-serif;
             font-size: 20px;
