@@ -47,8 +47,8 @@ video {
     background-color: #555454; }
     .iphone-seccion .imagen {
       position: relative;
-      width: 80%;
-      left: 10%; }
+      width: 90%;
+      left: 5%; }
     .iphone-seccion .titulo {
       width: 100%;
       display: flex;
@@ -78,6 +78,8 @@ video {
         font-size: 60px;
         padding: 12px 40px;
         margin-right: 5px; }
+        .iphone-seccion .titulo .boton button:first-child a {
+          color: #11aff1; }
       .iphone-seccion .titulo .boton button:last-child {
         background: 0 0;
         border: 2px solid #3fb125;
@@ -86,6 +88,8 @@ video {
         font-size: 60px;
         padding: 12px 40px;
         margin-left: 5px; }
+        .iphone-seccion .titulo .boton button:last-child a {
+          color: #3fb125; }
   .container {
     display: flex;
     flex-direction: column;
@@ -100,23 +104,29 @@ video {
         font-family: 'Roboto', sans-serif;
         font-weight: 100;
         font-size: 80px;
-        color: #ffffff;
         padding: 1rem 0rem;
-        margin-bottom: 1rem; }
+        margin-bottom: 1rem;
+        margin-top: 3rem; }
       .container div:first-child p {
         font-family: 'Roboto', sans-serif;
         font-size: 50px;
         font-weight: 400;
-        color: #ffffff;
         padding: 0rem 4rem 3rem 3rem;
         text-align: center; }
       .container div:first-child button {
         background: 0 0;
         border: 2px solid #11aff1;
-        color: #11aff1;
         border-radius: 30px;
         font-size: 20px;
-        padding: 12px 40px; } }
+        padding: 12px 40px; }
+        .container div:first-child button a {
+          color: #11aff1; }
+        .container div:first-child button a:hover {
+          color: white; }
+      .container div:first-child button:hover {
+        background-color: #11aff1; }
+    .container .img {
+      width: 70%; } }
 
 @media (min-width: 1200px) {
   .iphone-seccion {
@@ -188,7 +198,8 @@ video {
         font-weight: 100;
         font-size: 40px;
         color: #212529;
-        padding: 1rem 0rem; }
+        padding: 1rem 0rem;
+        margin-top: 3rem; }
       .container div:first-child p {
         font-family: 'Roboto', sans-serif;
         font-size: 16px;
@@ -204,6 +215,12 @@ video {
         border-radius: 30px;
         font-size: 20px;
         padding: 12px 40px; }
+        .container div:first-child button a {
+          color: #11aff1; }
+        .container div:first-child button a:hover {
+          color: white; }
+      .container div:first-child button:hover {
+        background-color: #11aff1; }
   .icons-seccion {
     display: flex;
     flex-direction: column;
