@@ -245,7 +245,8 @@ video {
             font-size: 80px;
             color: #3fb125;
             font-weight: 100;
-            padding: 1rem; }
+            padding: 1rem;
+            margin-right: 40px; }
           .seccion-id .icons ul li h4 {
             margin: 0 0 6px;
             color: #2a2e2f;
