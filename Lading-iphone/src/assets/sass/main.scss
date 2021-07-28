@@ -129,7 +129,12 @@
         flex-direction: row;
         justify-content: space-evenly;
         padding: $menu-padding;
-        
+        background-image: url('../img/fondo.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: soft-light;
+        background-color: rgb(85, 84, 84);
     
         .imagen{
             width: 400px;
